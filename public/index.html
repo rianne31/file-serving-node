@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Node.js File Server</title>
+    <title>File Server with Upload</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h1>Welcome to the Node.js File Server</h1>
+    <div class="container">
+        <h1>Node.js File Server</h1>
+        
+        <div class="upload-section">
+            <h2>Upload a File</h2>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="fileUpload">Select a file:</label>
+                    <input type="file" id="fileUpload" name="fileUpload" required>
+                    <small>Allowed file types: JPEG, PNG, GIF, PDF, TXT</small>
+                </div>
+                <button type="submit" class="submit-btn">Upload File</button>
+            </form>
+        </div>
+        
+        <div class="info-section">
+            <h2>About This Server</h2>
+            <p>This is an enhanced Node.js file server that supports:</p>
+            <ul>
+                <li>Serving static files (HTML, CSS, JavaScript, images)</li>
+                <li>File uploads with validation</li>
+                <li>Content-type detection</li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Created for CITE 006-IT32S2 - Application Development and Emerging Technologies </p>
+    </footer>
 </body>
 </html>

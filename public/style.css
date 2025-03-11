@@ -1,0 +1,128 @@
+
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}
+
+h2 {
+    color: #3498db;
+    margin-bottom: 15px;
+}
+
+.upload-section, .info-section, .success-message {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+small {
+    display: block;
+    margin-top: 5px;
+    color: #7f8c8d;
+}
+
+.submit-btn, .back-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover, .back-btn:hover {
+    background-color: #2980b9;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+#file-details {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #eaf7ff;
+    border-left: 4px solid #3498db;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    color: #7f8c8d;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 20px 10px;
+        padding: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
